@@ -1,0 +1,43 @@
+
+/* h*/
+h1, h4 {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+h4 {
+  text-align: start;
+}
+
+/* general information */
+#general-indormation {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* img */
+.my-photo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* skills */
+ul.skills {
+  color: red;
+}
+
+/* employment history */
+
+p i {
+  color: #40A2E3;  
+}
+
+p.employment-history {
+  margin-top: 10px;
+}
+
+ol {
+  color: brown;
+}
+

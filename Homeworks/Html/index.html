@@ -7,45 +7,55 @@
     <link rel="stylesheet" href="../../styles/normalize.css" />
     <link rel="stylesheet" href="../../styles/main.css" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>
+    <!-- homeworks menu -->
+    <div class="homeworks-menu">
       <a href="../../index.html">Homeworks</a>
     </div>
-    <div>
+    <div class="app">
       <!-- general information -->
       <h1>Yuliia Tsiniavska</h1>
-      <div>
-        <b>Date of birth:</b>
-        <span>27 October 1994</span>
+      <div id="general-indormation">
+        <div>
+          <b>Date of birth:</b>
+          <span>27 October 1994</span>
+        </div>
+        <div>
+          <b>Country:</b>
+          <span>Ukraine</span>
+        </div>
+        <div>
+          <b>Contact Phone No.:</b>
+          <a href="tel:+380994764206">+380994764206</a>
+        </div>
+        <div>
+          <b>Email:</b>
+          <a href="mailto:yulia.tsiniavska@gmail.com"
+            >yulia.tsiniavska@gmail.com</a
+          >
+        </div>
+        <div>
+          <b>LinkedIn:</b>
+          <a href="https://www.linkedin.com/in/tsiniavska" target="_blank"
+            >https://www.linkedin.com/in/tsiniavska</a
+          >
+        </div>
       </div>
-      <div>
-        <b>Country:</b>
-        <span>Ukraine</span>
+      <div class="my-photo">
+        <img src="./assets/img/my-photo.jpg" alt="photo" width="250px" />
       </div>
-      <div>
-        <b>Contact Phone No.:</b>
-        <a href="tel:+380994764206">+380994764206</a>
-      </div>
-      <div>
-        <b>Email:</b>
-        <a href="mailto:yulia.tsiniavska@gmail.com"
-          >yulia.tsiniavska@gmail.com</a
-        >
-      </div>
-      <div>
-        <b>LinkedIn:</b>
-        <a href="https://www.linkedin.com/in/tsiniavska" target="_blank"
-          >https://www.linkedin.com/in/tsiniavska</a
-        >
-      </div>
-      <div>
-        <img
-          src="./assets/img/my-photo.jpg"
-          alt="photo"
-          width="300px"
-          height="400px"
-        />
+      <div class="about-posotion">
         <p>
           I am searching for a junior frontend developer position where I can
           put my existing skills to use, be valuable in this role, and have the
@@ -64,7 +74,7 @@
       <!-- skills -->
       <div>
         <h4>Completed courses:</h4>
-        <ul>
+        <ul class="skills">
           <li>
             Successfully completed course of Quality Control in IT-Cluster
             Academy.
@@ -77,7 +87,7 @@
       </div>
       <div>
         <h4>Professional skills:</h4>
-        <ul>
+        <ul class="skills">
           <li>Good knowledge of selling techniques.</li>
           <li>Adobe Photoshop skills.</li>
           <li>Basic knowledge of Adobe Illustrator.</li>
@@ -96,7 +106,7 @@
       <h4>Employment history:</h4>
       <!-- bosch siemens -->
       <div>
-        <p>
+        <p class="employment-history">
           <i>Oct 2019 - present: Promoter at Bosch & Siemens TM.</i>
         </p>
         <div>Duties and responsibilities:</div>
@@ -124,7 +134,7 @@
       </div>
       <!-- groupe seb -->
       <div>
-        <p>
+        <p class="employment-history">
           <i>Dec 2014 – Sep 2019: Sales consultant at Groupe SEB Ukraine.</i>
         </p>
         <div>Duties and responsibilities:</div>
@@ -141,7 +151,7 @@
       </div>
       <!-- diesa -->
       <div>
-        <p>
+        <p class="employment-history">
           <i>Aug 2014 – Dec 2014: seller of non-food goods at DIESA Ltd.</i>
         </p>
         <div>Duties and responsibilities:</div>
@@ -154,7 +164,7 @@
       </div>
       <!-- bookkeeper assistance -->
       <div>
-        <p>
+        <p class="employment-history">
           <i
             >Sept 2013 – Nov 2013: bookkeeper assistance at the office of
             private entrepreneur as the part of student’s practice.</i

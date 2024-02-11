@@ -1,0 +1,58 @@
+/* app */
+.app {
+  margin-top: 20px;
+}
+
+/* resume + css */
+.resume-css {
+  margin-bottom: 10px;
+}
+
+/* blocks items */
+.blocks-items {
+  width: 100px;
+  height: 430px;
+  margin-bottom: 10px;
+}
+
+.block-item-red {
+  height: 100px;
+  background-color: #FF0000;
+  
+}
+
+.block-item-green {
+  height: 100px;
+  background-color: #00FF00;
+
+}
+
+.block-item-blue {
+  height: 100px;
+  background-color: #0000FF;
+}
+
+.block-item-gray {
+  height: 100px;
+  background-color: #C3C3C3;
+  border-radius: 50%;
+}
+
+.block-item-red, .block-item-green, .block-item-blue {
+  margin-bottom: 10px;
+}
+
+/* p1 */
+.text-1, .text-2 {
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+/* hello from html */
+.text-hello {
+  margin-bottom: 20px;
+}
+
+
+
+
