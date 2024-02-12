@@ -62,22 +62,22 @@ ul {
   text-decoration: line-through;
 }
 
-/* Button */
-.list-item-button {
-  background-color: #4a4f56;
-}
+/* Form, Button */
 
-.list-form-button {
+.form-button {
+  background-color: #4a4f56;
   display: flex;
   gap: 10px;
   padding: 10px;
-  cursor: pointer;
+
+  margin: 0 auto;
+  max-width: 530px;
 }
 
-.list-button {
-  margin: 0 auto;
-  background-color: #4a4f56;
+.button {
   color: #ff8984;
   font-size: 18px;
   cursor: pointer;
+  background-color: #4a4f56;
+  margin: 0 auto;
 }
