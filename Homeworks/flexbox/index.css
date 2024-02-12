@@ -1,0 +1,42 @@
+/* Global */
+body {
+  font-family: var(--f-base);
+  font-size: var(fs-base);
+  min-height: 100vh;
+  color: var(--c-black);
+  background-color: var(--c-white);
+  
+}
+
+/* Header */
+.header {
+  
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+}
+
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  max-width: 200px;
+  height: fit-content;
+  display: flex;
+  width: 100%;
+
+}
+
+/* Navigation */
+.navigation-list {
+  display: flex;
+  align-items: center;
+  gap: 20px
+
+}

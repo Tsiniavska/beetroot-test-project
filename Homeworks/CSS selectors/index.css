@@ -1,0 +1,83 @@
+body {
+  min-height: 100vh;
+  background-color: #3b3f45;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* homeworks menu */
+.homeworks-menu {
+  color: white;
+}
+
+/* header */
+.header {
+  background-color: #4a4f56;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #ff8984;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  margin-bottom: 10px;
+}
+
+/* section */
+/* list */
+
+.list {
+  max-width: 530px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.list-label {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.list-label:hover {
+  border-color: white;
+  background-color: #625e77;
+}
+
+.list-item {
+  background-color: #88839e;
+}
+
+.list-item:nth-child(2n) {
+  background-color: #7a7593;
+}
+
+.list-checkbox:checked + .list-content {
+  text-decoration: line-through;
+}
+
+/* Button */
+.list-item-button {
+  background-color: #4a4f56;
+}
+
+.list-form-button {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list-button {
+  margin: 0 auto;
+  background-color: #4a4f56;
+  color: #ff8984;
+  font-size: 18px;
+  cursor: pointer;
+}

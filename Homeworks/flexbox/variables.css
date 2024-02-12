@@ -1,0 +1,13 @@
+:root {
+  /* *Colors */
+  --c-white: #fff;
+  --c-black: #2f281e;
+  --c-black-1: #544837;
+  --c-primary: #FF9900;
+  /* Fonts */
+  --f-base: "Montserrat", sans-serif;
+  --f-poppins: "Poppins", sans-serif;
+  /* *Font sizes */
+  --fs-base: 16px;
+}
+

@@ -22,9 +22,22 @@ h6 {
 }
 
 img {
-  width: 100%a;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* *Helpers */
+.wrapper {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }

@@ -1,11 +1,10 @@
 /* app */
-.app {
-  margin-top: 20px;
-}
 
 /* resume + css */
 .resume-css {
+  margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 /* blocks items */
@@ -13,46 +12,45 @@
   width: 100px;
   height: 430px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .block-item-red {
   height: 100px;
-  background-color: #FF0000;
-  
+  background-color: #ff0000;
 }
 
 .block-item-green {
   height: 100px;
-  background-color: #00FF00;
-
+  background-color: #00ff00;
 }
 
 .block-item-blue {
   height: 100px;
-  background-color: #0000FF;
+  background-color: #0000ff;
 }
 
 .block-item-gray {
   height: 100px;
-  background-color: #C3C3C3;
+  background-color: #c3c3c3;
   border-radius: 50%;
 }
 
-.block-item-red, .block-item-green, .block-item-blue {
+.block-item-red,
+.block-item-green,
+.block-item-blue {
   margin-bottom: 10px;
 }
 
 /* p1 */
-.text-1, .text-2 {
+.text {
   width: 450px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 /* hello from html */
 .text-hello {
   margin-bottom: 20px;
+  margin-left: 20px;
 }
-
-
-
-
