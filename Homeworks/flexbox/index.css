@@ -22,6 +22,14 @@ p {
   cursor: default;
 }
 
+.wrapper {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
 /* Header */
 .header {
   display: flex;
