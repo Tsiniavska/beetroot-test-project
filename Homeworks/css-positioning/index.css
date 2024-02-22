@@ -1,0 +1,161 @@
+body {
+  background-color: #111111;
+}
+
+.link-homeworks-title {
+  color: white;
+}
+
+/* Blocks */
+.block {
+  margin: 100px auto;
+  width: 700px;
+  height: 700px;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.block-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  border: 12px solid #480e63;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.block-circle:active + .block-content {
+  transform: rotate(360deg);
+}
+
+.block-circle-inner {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #290148;
+  border: 12px solid #480e63;
+  position: absolute;
+}
+
+.block-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 2s linear;
+}
+
+.block-line {
+  width: 600px;
+  height: 3px;
+  background-color: #f1f1f1;
+  position: absolute;
+}
+
+.block-line--45 {
+  transform: rotate(45deg);
+}
+
+.block-line--90 {
+  transform: rotate(90deg);
+}
+
+.block-line--135 {
+  transform: rotate(135deg);
+}
+
+.block-circle-small {
+  background-color: #480e63;
+  border: 12px solid #f1f1f1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  transition: transform 1s linear;
+}
+
+.block-circle-small:hover {
+  transform: translate(25px, 25px);
+}
+
+.block-circle-small--top {
+  left: calc(50% - 50px);
+  top: 0;
+}
+
+.block-circle-small--top:hover {
+  transform: translate(0, 25px);
+}
+
+.block-circle-small--top-right {
+  left: auto;
+  top: 75px;
+  right: 75px;
+}
+
+.block-circle-small--top-right:hover {
+  transform: translate(-25px, 25px);
+}
+
+.block-circle-small--right {
+  top: auto;
+  left: auto;
+  right: 0;
+}
+
+.block-circle-small--right:hover {
+  transform: translate(-25px, 0);
+}
+
+.block-circle-small--bottom-right {
+  left: auto;
+  top: auto;
+  right: 75px;
+  bottom: 75px;
+}
+
+.block-circle-small--bottom-right:hover {
+  transform: translate(-25px, -25px);
+}
+
+.block-circle-small--bottom {
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: 0;
+}
+
+.block-circle-small--bottom:hover {
+  transform: translate(0, -25px);
+}
+
+.block-circle-small--bottom-left {
+  left: 75px;
+  top: auto;
+  right: auto;
+  bottom: 75px;
+}
+
+.block-circle-small--bottom-left:hover {
+  transform: translate(25px, -25px);
+}
+
+.block-circle-small--left {
+  top: auto;
+  left: 0;
+  right: auto;
+}
+
+.block-circle-small--left:hover {
+  transform: translate(25px, 0);
+}
