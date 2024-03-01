@@ -1,0 +1,11 @@
+# Node moduler
+/node_modules
+
+# Package-lock json
+package-lock.json
+
+# VC Code
+/.vscode
+
+# Dist
+/dist
