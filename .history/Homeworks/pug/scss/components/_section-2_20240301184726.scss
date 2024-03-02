@@ -1,0 +1,43 @@
+.section-2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  &-2-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+  }
+
+  &-content {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  &-image-block {
+    width: 100%;
+    display: flex;
+  }
+
+  &-content-1 {
+    margin-bottom: 40px;
+  }
+
+  &-content-1-title {
+    font-size: 1.375em;
+    cursor: default;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  &-content-2 {
+    display: grid;
+    gap: 30px;
+  }
+
+  &-content-2-title {
+    padding-bottom: 10px;
+  }
+}

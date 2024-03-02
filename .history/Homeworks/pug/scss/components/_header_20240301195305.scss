@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: var(--h-header);
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+  }
+
+  &-buttons {
+    display: flex;
+    gap: 30px;
+  }
+
+  &-button--white {
+    background-color: var(--c-white);
+    color: var(--c-black);
+    border-color: var(--c-blue);
+  }
+}

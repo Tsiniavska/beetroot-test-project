@@ -1,0 +1,11 @@
+.navigation {
+  &-list {
+    display: flex;
+    align-items: center;
+  }
+
+  &-link {
+    padding: 10px;
+    display: flex;
+  }
+}

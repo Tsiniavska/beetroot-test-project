@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: var(--h-footer);
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: var(--h-footer);
+  }
+
+  &-logo {
+    max-width: 200px;
+    height: fit-content;
+    display: flex;
+    width: 100%;
+  }
+
+  &-form-title {
+    padding-bottom: 25px;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 340px;
+  }
+
+  &-form-input {
+    max-width: 200px;
+  }
+
+  &-button {
+    max-width: 200px;
+  }
+
+  &-form-title {
+    font-size: 1.25em;
+  }
+}

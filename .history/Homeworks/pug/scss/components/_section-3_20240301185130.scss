@@ -1,0 +1,39 @@
+.section-3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+  }
+
+  &-image {
+    width: 100%;
+    display: flex;
+  }
+
+  &-content-2-image {
+    width: 100%;
+    max-width: 35px;
+    display: flex;
+  }
+
+  &-content {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  &-conten-1-text {
+    margin-bottom: 40px;
+  }
+
+  &-content-2-block-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}

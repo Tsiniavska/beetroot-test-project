@@ -1,0 +1,20 @@
+&-footer-title {
+    padding-bottom: 30px;
+  }
+
+  &-footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &-footer-title {
+    font-size: 1.25em;
+  }
+
+  &-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

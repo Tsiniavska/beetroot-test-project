@@ -1,0 +1,8 @@
+.link {
+  transition: var(--t-normal);
+  color: var(--c-black);
+
+  &:hover {
+    color: var(--c-primary);
+  }
+}

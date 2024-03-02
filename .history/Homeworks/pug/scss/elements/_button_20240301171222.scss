@@ -1,0 +1,15 @@
+.button {
+  height: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--c-primary);
+  color: var(--c-white);
+  border: 1px solid var(--c-primary);
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--t-normal);
+}
