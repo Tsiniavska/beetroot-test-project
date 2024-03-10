@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  max-width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: var(--c-text);
+  font-size: 0.9375em;
+  line-height: 22px;
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+  }
+}

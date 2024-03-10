@@ -43,3 +43,11 @@ ul {
   stroke: currentColor;
   fill: currentColor;
 }
+
+.input {
+  width: 100%;
+}
+
+.input [type='file'] {
+  display: none;
+}
