@@ -4,6 +4,8 @@
   padding-left: 35px;
   padding-right: 35px;
   padding-top: 35px;
+  background-color: white;
+  padding-bottom: 80px;
 
   &-title {
     font-size: 1, 5em;
@@ -41,10 +43,14 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 5px;
+    border: 1px solid var(--silver);
+    border-radius: 5px;
   }
 
   &-file-text {
     margin-top: 10px;
+    color: var(--c-icons);
+    transform: translate(-20px);
   }
 
   &-icon-basket {
@@ -58,5 +64,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px 10px;
     margin-top: 20px;
+  }
+
+  &--select {
+    appearance: none;
   }
 }
