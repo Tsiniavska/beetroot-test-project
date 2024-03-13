@@ -1,7 +1,6 @@
 .block {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  // grid-auto-flow: row;
   justify-content: center;
   gap: 30px;
   margin-top: 80px;
@@ -26,6 +25,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 
@@ -49,6 +54,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 
@@ -72,6 +83,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 
@@ -95,6 +112,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 
@@ -118,6 +141,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 
@@ -141,6 +170,12 @@
       color: var(--c-like-white);
       font-size: 1.25em;
       line-height: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(36, 31, 36, 0.5) 0%,
+        rgba(91, 91, 91, 0.5) 44.76%,
+        rgba(187, 186, 192, 0.5) 100%
+      );
     }
   }
 }

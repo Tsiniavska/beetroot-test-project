@@ -21,9 +21,7 @@ confirm('Do you agree with the site policy?');
 
 // LMS tasks
 // task 1 about user's name
-let youName = '';
-youName = prompt('Як тебе звати?');
-console.log('Привіт', youName);
+console.log('Привіт', prompt('Як тебе звати?'));
 
 // task 2 about age
 const YEAR = 2024;
@@ -45,10 +43,7 @@ console.log('Площа круга =', area);
 // task 5 abour distance
 const distance = +prompt('Вкажіть відстань між двома містами в кілометрах');
 const time = +prompt('Та вкажіть за скільки годин Ви хочете туди дістатись');
-const speed =
-  isNaN(distance) || isNaN(time) || time <= 0
-    ? 'Введені дані некоректні'
-    : distance / time;
+const speed = distance / time;
 console.log(
   'Швидкість з якою Вам потрібно рухатись щоб встигнути вчасно =',
   speed
@@ -56,13 +51,6 @@ console.log(
 
 // task 6 about exchange rate
 const value = +prompt('Скільки доларів Ви хочете обміняти в євро?');
-const confirmed = confirm(
-  'Курс обміну на даний момент становить 42. Погоджуєтесь?'
-);
-if (confirmed) {
-  const course = 42;
-  const result = value * course;
-  console.log('Ваших', result, 'євро');
-} else {
-  console.log('Скасовано.');
-}
+const course = 0.91;
+const euro = value * course;
+console.log('Ваші', Math.round(euro), 'євро');
