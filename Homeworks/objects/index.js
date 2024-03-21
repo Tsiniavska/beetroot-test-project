@@ -30,7 +30,7 @@ car.driver4 = 'Steven';
 // Перевірка водія на його наявність у списку
 const key = prompt('Введіть водія якого шукаєте');
 const value = car[key];
-if (value !== undefined) {
+if (value) {
   console.log(value);
 } else {
   console.log('Такого водія не знайдено');
