@@ -1,0 +1,21 @@
+.topic {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.playlist {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.playlist-title {
+  color: red;
+}
+
+.list-item {
+  margin-top: 10px;
+}
