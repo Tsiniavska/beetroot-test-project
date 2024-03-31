@@ -1,0 +1,11 @@
+.icon-form {
+  color: var(--c-icons);
+
+  &--select {
+    display: flex;
+    position: absolute;
+    transform: translate(215px, 17px);
+    color: var(--c-icons);
+    cursor: pointer;
+  }
+}
