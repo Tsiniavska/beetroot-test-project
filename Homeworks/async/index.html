@@ -14,9 +14,48 @@
         <a href="../../index.html">Homeworks</a>
       </div>
 
-      <div class="title">
-        <h1>JavaScript</h1>
-        <h2>Асинхронний JavaScript</h2>
+      <!-- Task 1 (Films) -->
+      <div class="wrapper">
+        <!-- Title -->
+        <div>
+          <h1>JavaScript</h1>
+          <h2>Асинхронний JavaScript</h2>
+        </div>
+        <form class="search-form" method="get" id="js-search-form">
+          <div class="search-film">
+            <!-- Input fim's name -->
+            <div>
+              <label>
+                <div>Film's name</div>
+                <input class="input" type="text" name="film-name" />
+                <div class="error" id="js-film-name-error"></div>
+              </label>
+            </div>
+            <!-- choose the type of movie -->
+            <div class="form-type">
+              <label>
+                <div>Film's type</div>
+                <select name="film-type">
+                  <option value="" disabled selected hidden>Select</option>
+                  >
+                  <option value="movie">movie</option>
+                  <option value="series">series</option>
+                  <option value="episode">episode</option>
+                </select>
+                <div class="error" id="js-film-type-error"></div>
+              </label>
+            </div>
+            <!-- Button -->
+            <button type="submit" class="button">
+              <span>Search</span>
+            </button>
+          </div>
+        </form>
+        <div class="block-films" id="films">
+          <ul id="js-film-list">
+            <li id="js-film-list-empty">Список пустий</li>
+          </ul>
+        </div>
       </div>
 
       <script type="module" defer src="./index.js"></script>
