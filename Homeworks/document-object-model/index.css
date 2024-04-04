@@ -19,3 +19,7 @@
 .list-item {
   margin-top: 10px;
 }
+
+.item {
+  display: block;
+}
